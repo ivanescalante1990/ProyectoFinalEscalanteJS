@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#carouselExampleFade {
+    height: 80vh;
+    width: 100vw;
+    z-index: -1;
+}
+#carouselExampleFade img {
+    height: 70vh;
+}
+
+
+.imagen{
+    width:70%;
+}
+
+a{
+    cursor:pointer;
+    text-decoration: none;
+}
+
+.modal-contenedor{
+    display:flex;
+    align-items: center;
+    gap:5rem;
+
+}
+.img-carrito{
+    width:300px;
+    height: 200px;
+    padding:10px;
+} 
+.modal-content{
+    background-color: beige;
+}
+.parrafo{
+    font-size: medium;
+    font-weight: 600;
+    font-style: normal;
+    color: black;
+}
+#precioTotal{
+    margin:0;
+    padding:0;
+    font-weight: 300;
+}
+
+.boton{
+    opacity:0;
+}
+
+.usuarios {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    position: static;
+}
+
+#boton {
+    width: 130px;
+    height: 90px;
+    border-radius: 15px;
+    font-weight: 500;
+    font-size: 25px;
+    background-color: cornflowerblue;
+}
+
+.user {
+    display: flex;
+    justify-content:flex-end;
+    align-content: center;
+    margin-top:50px;
+    width: 130px;
+    height: 90px;
+    border-radius: 15px;
+    font-weight: 500;
+    font-size: 25px;
+    
+}
